@@ -7,7 +7,7 @@ public class GitDemo {
 
 
         System.out.println("This is for git demo......");
-        System.out.println("This is for git demo......");
+
         System.out.println("This is for git demo......");
     }
 }
