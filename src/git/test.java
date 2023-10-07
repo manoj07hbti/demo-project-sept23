@@ -8,6 +8,7 @@ public class test {
 
         System.out.println("This is java class");
 
+        System.out.println("Hello");
 
     }
 
