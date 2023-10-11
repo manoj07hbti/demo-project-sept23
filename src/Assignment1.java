@@ -1,26 +1,25 @@
 public class Assignment1 {
     public static void main(String[] args) {
-        //5 String variables
+
+        //5 double variables
+        double value = 2552.88998;
+        System.out.println(value);
 
 
-        String greet = "Welcome";
-        System.out.println(greet);
+        double weight = 62.5;
+        System.out.println(weight + "kg");
 
 
-        String firstName = "Tannu";
-        System.out.println(firstName);
+        double length = 15.7;
+        System.out.println(length + "m");
 
 
-        String lastname = "Bhushan";
-        System.out.println(lastname);
+        double averageMarks = 65;
+        System.out.println(averageMarks);
 
 
-        String schoolName = "ST Marys Sr. Sec. School";
-        System.out.println(schoolName);
-
-
-        String emailId = "Thisismy_mailId@1011";
-        System.out.println(emailId);
+        double radius = 2.2;
+        System.out.println(radius);
 
 
         //5 int variables
@@ -44,26 +43,32 @@ public class Assignment1 {
         System.out.println(oddNum);
 
 
-        //5 double variables
-        double value = 2552.88998;
-        System.out.println(value);
+        //5 String variables
 
 
-        double weight = 62.5;
-        System.out.println(weight + "kg");
+        String greet = "Welcome";
+        System.out.println(greet);
 
 
-        double length = 15.7;
-        System.out.println(length + "m");
+        String firstName = "Tannu";
+        System.out.println(firstName);
 
 
-        double averageMarks = 65;
-        System.out.println(averageMarks);
+        String lastname = "Bhushan";
+        System.out.println(lastname);
 
 
-        double radius = 2.2;
-        System.out.println(radius);
+        String schoolName = "ST Marys Sr. Sec. School";
+        System.out.println(schoolName);
 
+
+        String emailId = "Thisismy_mailId@1011";
+        System.out.println(emailId);
     }
 }
+
+
+
+
+
 

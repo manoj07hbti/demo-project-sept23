@@ -3,7 +3,7 @@ public class Assignment {
         //5 String variables
 
 
-        String greet = "Welcome";
+        String greet = "hello";
         System.out.println(greet);
 
 
