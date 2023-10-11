@@ -2,7 +2,7 @@ package demo_variables;
 
 public class AssignmentVariable {
     public static void main(String[] args) {
-      // create 5 String variable
+      // created 5 String variable
         String name;
         name="Sachin";
         String CarBrandName;
@@ -22,7 +22,7 @@ public class AssignmentVariable {
         System.out.println("Printing CityName:"+CityName);
         System.out.println("Printing CityLocation:"+CityLocation);
 
-        // create 5 int variable
+        // created 5 int or double variable
         int age;// I have declared age variable of int datatype
         age=28;
         int weight;// I have declared weight variable of int datatype
