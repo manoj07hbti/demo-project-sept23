@@ -6,7 +6,7 @@ public class Demo9 {
         System.out.println("I am java learner");
         System.out.println("I am beginner of this class");
         System.out.println("I have been joining this class last september");
-        System.out.println("Only tuesday thursday of saturday i atted java class");
+        System.out.println("Only tuesday thursday or saturday i attend java class");
 
 
 }
