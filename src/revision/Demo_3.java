@@ -16,7 +16,7 @@ public class Demo_3 {
 
         System.out.println("okey, Mohan That time what are doing");
 
-        System.out.println("That time , I am learing programming ");
+        System.out.println("That time , I am learning programming ");
 
 
 

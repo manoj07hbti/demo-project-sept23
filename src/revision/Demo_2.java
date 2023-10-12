@@ -1,10 +1,9 @@
 package revision;
 
-public class Demo_2 {
-
+public class Demo_2{
     public static void main(String []args ){
 
-        System.out.println("  I  am  INDIAN ");
+        System.out.println("  I  am an Indian " );
 
         System.out.println("  So' I am froud of  INDIAN ");
 
