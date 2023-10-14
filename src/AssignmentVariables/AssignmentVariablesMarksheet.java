@@ -1,6 +1,7 @@
 package AssignmentVariables;
 
-public class AssignmentVariablesMarksheet {
+public class AssignmentVariablesMarksheet
+{
     public static void main(String[] args)
     {
         int TotalMarks=1500;
@@ -38,6 +39,8 @@ public class AssignmentVariablesMarksheet {
         System.out.println("Kajal Got " +KajalMarks +" Out of " +TotalMarks);
         Percentage=KajalMarks/TotalMarks*100;
         System.out.println("Hence Got " +Percentage+ "%");
+
+        System.out.println("End of Result");
 
 
 
