@@ -26,14 +26,27 @@ public class DemoAdvanceVariables {
         System.out.println("Square of a..." + squre);
 
         int b = 5;
-        int cube = b * b;
+        int cube = b * b * b;
 
-        System.out.println("Square of b..." + cube);
+        System.out.println("Cube of b..." + cube);
 
         int p = 50;
         double percentage = (double) p * 10 / 100;
 
         System.out.println("Percantage of 100..." + percentage);
 
+        a=10;
+        b=3;
+        a+=b;
+        System.out.println("PRINT RESULT ADD..."+a);
+
+        a-=b;
+        System.out.println("PRINT RESULT SUB..."+a);
+
+        a*=b;
+        System.out.println("PRINT RESULT MULTI..."+a);
+
+        a/=b;
+        System.out.println("PRINT RESULT DIVIDE..."+a);
     }
 }
