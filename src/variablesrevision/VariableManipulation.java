@@ -51,6 +51,26 @@ public class VariableManipulation {
 
         System.out.println("division of x and y is: "+x);
 
+        int b,a=5;
+
+        b=a*a*a;
+
+        System.out.println("please print cube value: "+b);
+
+        b=a*a;
+        System.out.println("square value: "+b);
+
+        int number2=500;
+        int percentage=50;
+
+        int result2=number2*percentage/100;
+        System.out.println("school percentage is: "+result2);
+
+
+
+
+
+
 
 
         }
