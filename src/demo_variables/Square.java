@@ -27,7 +27,7 @@ public class Square {
         System.out.println("Cubes of 6="+x*x*x);
 
 
-        // now i am calculating some percentage related question
+        // now I am calculating some percentage related question
         // if a =230 and b=400% then calculate percent
         //Syntax= number*percentage/100
         double a, b, percentage;
