@@ -18,7 +18,9 @@ public class AssignmentAdvanceVariable {
         //write a code to calculate %    number * pecentage/100
         //  200*10/100 == 20
 
-        double Percentage = 2375;
+        double Percentage = 257;
+        int c =257;
+        int d =64;
         Percentage = (double) 257 * 64 / 100;
         System.out.println("Printing percentage of Vishal: " + Percentage);
 
