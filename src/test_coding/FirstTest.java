@@ -17,7 +17,6 @@ public class FirstTest {
             System.out.println("Number is not divisible by 3");
         }
 
-
         //write a code to check eligible voter in Pune
 
         int age = 19;
