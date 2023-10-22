@@ -27,6 +27,24 @@ public class Demo_IfElse {
         }else{
             System.out.println("you are not indian");
         }
+        int age=2;
+        if(age>3){
+            System.out.println("your child is eligible for nursary class");
+        }else{
+            System.out.println("your child is not eligible for nursary class admission");
+
+        }String capital="Agra";
+        if(capital=="Delhi"){
+            System.out.println("capital of india");
+        }else{
+            System.out.println("this is not capital of india");
+        }
+        double average=50;
+        if(average!=50){
+            System.out.println("this average is not equal to sehwag average");
+        }else{
+            System.out.println("this average is equal to sehwag average");
+        }
 
     }
     }
