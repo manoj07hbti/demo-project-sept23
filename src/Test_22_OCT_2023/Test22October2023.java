@@ -1,8 +1,5 @@
 package Test_22_OCT_2023;
 
-import jdk.jfr.Percentage;
-
-import java.sql.SQLOutput;
 
 public class Test22October2023
 {
