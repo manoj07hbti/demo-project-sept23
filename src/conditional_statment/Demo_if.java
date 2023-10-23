@@ -25,63 +25,12 @@ public class Demo_if {
 
            String city= "Pune";
 
-           if(city=="Pune"){
+           if(city=="Pune") {
 
                System.out.println("candidate belongs to Pune ......");
+
+
            }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
        }
    }
 
