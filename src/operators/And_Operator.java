@@ -40,5 +40,18 @@ public class And_Operator {
             System.out.println("laptop is not good quality");
 
         }
+
+        // write a code to check percentage of student
+
+        double percentage =84 ;
+        if (percentage >= 33 && percentage <= 60) {
+            System.out.println("second division...");
+        }
+        if(percentage>=65 && percentage<=75) {
+            System.out.println("first division...");
+        }
+        if(percentage>75) {
+            System.out.println("gold medalist...");
+        }
     }
 }
