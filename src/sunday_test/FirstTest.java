@@ -13,9 +13,9 @@ public class FirstTest {
         } else{
             System.out.println(" Not eligible for voting");
         } { //2. calculate 5% of 500
-            int percent=5;
-            int number=500;
-            int percentage=percent*number/100;
+            int a=5;
+            int b=500;
+            double percentage=(double)a*b/100;
             System.out.println("5 percent of 500 =" +percentage +"%");
             // I could not see Q.Number 3 so I have moved it down
 
@@ -23,7 +23,7 @@ public class FirstTest {
         }  //4. Now nationality is being checked which is Indian or not
             String Nationality="Indian";
             String state="Maharashtra";
-            if(Nationality=="Indian" || state=="Maharashtra" ){
+            if(Nationality=="Indian" && state=="Maharashtra" ){
                 System.out.println("Person Nationality is: Indian");
             } else{
                 System.out.println(" Person is from different country");
@@ -41,7 +41,7 @@ public class FirstTest {
             } {//3. checking odd or even number , first I took number=20 then number=11
                 int number=20;
                 if(number%2==0){
-                    System.out.println("Priting even number: "+ number);
+                    System.out.println("Printing even number: "+ number);
                 } else{
                     System.out.println("printing odd number:"+ number );
                 } number=11;
