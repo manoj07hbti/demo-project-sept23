@@ -13,7 +13,7 @@ public class DemoLoop {
 
         // table of 10
         { number=10;
-            i=10;
+
             for(i=1; i<=10; i++){
                 System.out.println(number + "X"+i+"="+number*i);
             }
