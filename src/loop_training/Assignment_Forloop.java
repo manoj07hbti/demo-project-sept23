@@ -19,6 +19,14 @@ public class Assignment_Forloop {
 
             System.out.println(num + " x " + b + " = " + num * b);
         }
+
+
+
+
+
+
+
+
     }
 
 
