@@ -1,34 +1,38 @@
 package loops;
 
-public class For_Loop {
+public class Do_While {
     public static void main(String[] args) {
-        // Table of 5 using for loop
+        // Table of 5 using While Loop
+
         int number = 5;
-        int i;
-        for (i = 1; i <= 10; i++) {
+        int i = 1;
+        do {
             System.out.println(number + " x " + i + " = " + number * i);
-        }
+            i++;
+        } while (i <= 10);
 
 
-//Table of 10 using for loop
+        //Table of 10
         number = 10;
-        for (i = 1; i <= 10; i++) {
+        i = 1;
+        do {
             System.out.println(number + " x " + i + " = " + number * i);
-        }
+            i++;
+        } while (i <= 10);
 
 
-        // Find even and odd no. b/w 1 to 100 using for loop
+        // Write a code to find even and odd no. b/w 1 to 100
 
-        for (i = 1; i <= 100; i++) {
+        i = 1;
+        do {
             if (i % 2 == 0) {
                 System.out.println(i + " ...is even number");
             } else {
                 System.out.println(i + " ...is odd number");
             }
-        }
+            i++;
+        } while (i <= 100);
 
 
-
-        }
     }
-
+}
