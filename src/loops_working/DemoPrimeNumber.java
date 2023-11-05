@@ -4,13 +4,15 @@ public class DemoPrimeNumber {
 
     public static void main(String[] args) {
 
-        int number=7;
+        int number=10;
         boolean isPrime=true;
 
         for(int i=2; i<number; i++){
 
             if(number%i==0){
+                System.out.println("Number is divisible ...");
               isPrime=false;
+              break;
 
             }
         }
