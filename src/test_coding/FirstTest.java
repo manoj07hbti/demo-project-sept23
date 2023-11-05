@@ -38,7 +38,7 @@ public class FirstTest {
         //write a code to check if any given number is  even or odd number
 
         int number = 4;
-        if (number % 2 == 0) {
+        if (number%2 == 0) {
             System.out.println("The number is belongs to an even number");
         } else {
             System.out.println("The number belong to odd number");
@@ -59,7 +59,7 @@ public class FirstTest {
         } else {
             System.out.println("You are not belongs to India");
         }
-        //write a code to swap two numbers a and b without using any third variable.
+        //write a code to swap two numbers a and b without using and third variable.
 
         a = 6543;
         b = 8765;
