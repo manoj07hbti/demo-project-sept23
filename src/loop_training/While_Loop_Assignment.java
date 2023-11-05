@@ -58,9 +58,11 @@ public class While_Loop_Assignment {
         int prime=8;
 
         while(prime%2==0){
-            System.out.println("No is prime number");
-            prime++;
-
+            if(prime==0){
+                System.out.println("No is prime number");
+            }else{
+                System.out.println("No is not prime number");
+            }prime++;
 
         }
 
