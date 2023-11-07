@@ -1,6 +1,6 @@
 package loops;
 
-public class Assignment7 {
+public class ForLoop {
     public static void main(String[] args) {
         //table of 5 using for loop
         int number = 5;

@@ -1,6 +1,6 @@
 package loops;
 
-public class Assignment8 {
+public class While_DoWhileLoop {
     public static void main(String[] args) {
         //While loop
         //table of 5 using while loop

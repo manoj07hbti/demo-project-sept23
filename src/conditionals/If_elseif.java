@@ -1,8 +1,8 @@
-package assignments;
+package conditionals;
 
-public class Assignment5 {
+public class If_elseif {
     public static void main(String[] args) {
-        //Write a code to check % of Student
+        //Write a code to check % of object.Student
         int percentage = 70;
         if (percentage >= 33 && percentage <= 60) {
             System.out.println("Second division");

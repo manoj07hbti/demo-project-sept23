@@ -2,7 +2,7 @@ package loops;
 
 public class BreakAndContinue {
     public static void main(String[] args) {
-        int month = 1;
+        int month=1;
         switch (month) {
             case 1:
                 System.out.println("January");

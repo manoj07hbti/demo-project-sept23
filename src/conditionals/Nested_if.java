@@ -1,6 +1,6 @@
-package assignments;
+package conditionals;
 
-public class Assignment4 {
+public class Nested_if {
     public static void main(String[] args) {
         //even and odd numbers which is greater than 0
         int num = 4;
