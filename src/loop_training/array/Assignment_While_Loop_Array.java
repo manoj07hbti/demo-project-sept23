@@ -25,5 +25,7 @@ public class Assignment_While_Loop_Array {
             System.out.println("printing salary in rupees: "+salary[c]);
             c++;
         }
+
+
     }
 }

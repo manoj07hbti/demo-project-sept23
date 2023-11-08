@@ -15,13 +15,13 @@ public class Assignment_For_Loop_Array {
         }
         int distance[] = {64, 58, 69, 87, 96, 32, 100};
 
-        for (int b = 1; b < distance.length; b++) {
+        for (int b = 0; b < distance.length; b++) {
             System.out.println("printing distance area " + distance[b]);
         }
 
         double salary[] = {80747.25, 100078.05, 96381.25, 176852.05, 180251.25};
 
-        for (int c = 1; c < salary.length; c++) {
+        for (int c = 0; c < salary.length; c++) {
 
             System.out.println("printing salary in rupees " + salary[c]);
         }
