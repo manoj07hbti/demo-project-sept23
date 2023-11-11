@@ -30,6 +30,21 @@ public class Demo_Continue  {
 
             System.out.println("printing marks: "+marks[i]);
         }
+        int num[]={56,69,32,33,85,73,30,68};
+
+        for(int c:num){
+
+            if(c<=33){
+                continue;
+            }else
+
+            {System.out.println("sachin marks :"+c);}
+
+
+
+
+
+        }
 
 
 
