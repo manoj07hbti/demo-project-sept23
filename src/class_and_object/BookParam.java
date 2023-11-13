@@ -2,8 +2,8 @@ package class_and_object;
 
 public class BookParam {
     //data member
-    String name;
-    int pages;
+   private String name;
+  protected int pages;
     double price;
 
     //parameterized constructor

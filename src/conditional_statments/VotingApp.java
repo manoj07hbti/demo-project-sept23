@@ -3,6 +3,7 @@ package conditional_statments;
 public class VotingApp {
 
     public static void main(String[] args) {
+
         //age>=18 , city=="Agra"
         int age=19;
         String city="Agra";
