@@ -26,4 +26,8 @@ public class Employee {
         Employee obj5= new Employee();
         System.out.println(" Print Salary of Employee = " +obj.salary);
     }
+
+
+    public void workMethod() {
+    }
 }
