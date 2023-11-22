@@ -35,11 +35,11 @@ public class DemoReturnType {
         System.out.println(result);
         System.out.println("Printing message: " + obj.welcomeMessage("Mukesh"));
 
-        boolean flag = obj.voting(12, "Pune");
+        boolean flag = obj.voting(21, "Pune");
         if (flag) {
             System.out.println("Eligible for voting....");
         } else {
-            System.out.println("Eligible for voting....");
+            System.out.println("NOT Eligible for voting....");
         }
     }
 }
