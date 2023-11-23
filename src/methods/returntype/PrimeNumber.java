@@ -14,12 +14,13 @@ public class PrimeNumber {
             return false;
         }
     }
+
     public static void main(String[] args) {
         PrimeNumber obj = new PrimeNumber();
-        boolean result=obj.primeNumber(8);
-        if (result){
+        boolean result = obj.primeNumber(8);
+        if (result) {
             System.out.println("Its a prime number");
-        }else{
+        } else {
             System.out.println("Its not a prime number");
         }
     }

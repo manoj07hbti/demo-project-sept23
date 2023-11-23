@@ -8,6 +8,7 @@ public class Factorial {
         }
         return fact;
     }
+
     public static void main(String[] args) {
         Factorial obj = new Factorial();
         System.out.println("Factorial of the number is: " + obj.factorial(5));

@@ -27,9 +27,9 @@ public class Calculator {
 
     public static void main(String[] args) {
         Calculator obj = new Calculator();
-        System.out.println("Sum of given number is : " + obj.addition(2,5));
+        System.out.println("Sum of given number is : " + obj.addition(2, 5));
         System.out.println("Difference of given number is : " + obj.subtraction(9, 3));
-        System.out.println("Multiplication of given number is : " +  obj.multiplication(12, 5));
+        System.out.println("Multiplication of given number is : " + obj.multiplication(12, 5));
         System.out.println("Division of given number is : " + obj.division(33, 8));
     }
 }
