@@ -30,6 +30,12 @@ public class Calculater_App {
         double result = (double) a / b;
         System.out.println("division number is: " + result);
     }
+    public void percentage(){
+        int a=10;
+        int b=10;
+        double result=(double)a*b/100;
+        System.out.println(" percentage of number is: "+result);
+    }
 
     public static void main(String[] args) {
         Calculater_App obj = new Calculater_App();
@@ -37,5 +43,6 @@ public class Calculater_App {
         obj.subtraction();
         obj.multiplication();
         obj.division();
+        obj.percentage();
     }
 }
