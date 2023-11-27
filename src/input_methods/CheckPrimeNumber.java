@@ -28,6 +28,6 @@ public class CheckPrimeNumber {
 
               CheckPrimeNumber obj= new CheckPrimeNumber();
 
-              obj.CheckPrimeNumber(8);
+              obj.CheckPrimeNumber(9);
        }
 }
