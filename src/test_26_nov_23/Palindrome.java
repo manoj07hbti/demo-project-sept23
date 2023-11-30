@@ -9,8 +9,8 @@ public class Palindrome {
         int reversedNum = 0;
 
         while (number > 0) {
-            int digit = number % 10;
-            reversedNum = (reversedNum * 10) + digit;
+            int rem = number % 10;
+            reversedNum = (reversedNum * 10) + rem;
             number = number / 10;
         }
 

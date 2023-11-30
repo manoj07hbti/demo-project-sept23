@@ -8,7 +8,6 @@ public class PrimeNumber {
     to Find the Prime Number and print all those prime number.
      */
     public static void primeNum(int start, int end) {
-        System.out.println("Prime numbers between " + start + " and " + end + ":");
         for (int i = start; i <= end; i++) {
             if (isPrime(i)) {
                 System.out.print(i + " ");
@@ -18,7 +17,7 @@ public class PrimeNumber {
     // function which checks whether a number is Prime or Not
     // If the number is prime, it returns true. Else, it returns false.
     public static boolean isPrime(int number) {
-        // 0 and 1 are neither prime nor composite numbers
+        // 0 and 1 are not prime
         if (number == 0 || number == 1) {
             return false;
 
@@ -29,7 +28,7 @@ public class PrimeNumber {
         }
         // every composite number has a prime factor
         // less than or equal to its square root.
-        for (int i = 2; i * i <= number; i++) {
+        for (int i = 2;  i< number; i++) {
             if (number % i == 0) {
                 return false;
             }
@@ -49,10 +48,10 @@ public class PrimeNumber {
         System.out.print("Please enter the end number: ");
         int end = sc.nextInt();
 
-
+        PrimeNumber obj=new PrimeNumber();
         // Print display message
+        System.out.print("Prime numbers between " + start + " and " + end + ":  " );
         primeNum(start,end);
-
 
 
     }

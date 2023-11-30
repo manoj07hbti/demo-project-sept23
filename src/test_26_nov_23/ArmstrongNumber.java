@@ -6,26 +6,15 @@ public class ArmstrongNumber {
     //Write a method to check if the given number is Armstrong or not, ask the user to enter this number.
     public static boolean isArmstrongNumber(int number) {
         int originalNumber = number;
-        int numDigits = countDigits(number);
         int sum = 0;
+        int rem;
 
         while (number > 0) {
-            int digit = number % 10;
-            sum = (int) (sum + Math.pow(digit, numDigits));
+            rem = number % 10;
+            sum = (sum + rem*rem*rem);
             number = number / 10;
         }
         return originalNumber == sum;
-    }
-
-    public static int countDigits(int num) {
-        int count = 0;
-
-        while (num != 0) {
-            num = num / 10;
-            count++;
-        }
-
-        return count;
     }
 
     public static void main(String[] args) {
@@ -43,5 +32,3 @@ public class ArmstrongNumber {
         }
     }
 }
-
-

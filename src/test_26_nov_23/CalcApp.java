@@ -3,15 +3,18 @@ package test_26_nov_23;
 import java.util.Scanner;
 
 public class CalcApp {
-    public int add(int a, int b) {
+    public int add(int a, int b)
+    {
         return a + b;
     }
 
-    public int sub(int a, int b) {
+    public int sub(int a, int b)
+    {
         return a - b;
     }
 
-    public int multi(int a, int b) {
+    public int multi(int a, int b)
+    {
         return a * b;
     }
 
