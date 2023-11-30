@@ -32,6 +32,10 @@ public class ArrayListGenerics {
         ArrayList<String> output=obj.createStringList();
         System.out.println("Printing output: "+output);
 
+        for(String var: output){
+            System.out.println("Printing using advanced loop..."+var);
+        }
+
        System.out.println("Printing Integer list: "+obj.createIntList());
     }
 
