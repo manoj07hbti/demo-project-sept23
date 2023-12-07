@@ -17,7 +17,6 @@ public class DemoDoctorArrayList {
         DoctorArrayList.add(doctor2);
         DoctorArrayList.add(doctor3);
 
-
         return DoctorArrayList;
     }
 
@@ -26,23 +25,38 @@ public class DemoDoctorArrayList {
         ArrayList<Doctor> doctors = obj.createDoctorList();
 
         for (int i = 0; i < doctors.size(); i++) {
-            System.out.println("Printing list data with loop: " + doctors.get(i));
+            System.out.println("Printing doctor Info using for loop");
+            System.out.println("Printing doctor Name: " + doctors.get(i).getName() +"\n"+ "Printing doctor specialisation: " +
+                    doctors.get(i).getSpecialization() +"\n"+
+                    "Printing doctor Department: " + doctors.get(i).getDept()+"\n"+ "Printing doctor yearsOfExperience: " + doctors.get(i).getYearsOfExperience());
         }
         int k = 0;
         while (k < doctors.size()) {
-            System.out.println("Printing list using while loop: " + doctors.get(k));
+            System.out.println("Printing doctor Info using While loop");
+            System.out.println("Printing doctor Name: " + doctors.get(k).getName() + "\n"+ "Printing doctor specialisation: " +
+                    doctors.get(k).getSpecialization() +"\n"+
+                    "Printing doctor Department: " + doctors.get(k).getDept() +"\n"+
+                    "Printing doctor yearsOfExperience: " + doctors.get(k).getYearsOfExperience());
             k++;
         }
         int j = 0;
         do {
-            System.out.println("Printing list using do-while loop: " + doctors.get(j));
+            System.out.println("Printing doctor Info using Do While loop");
+            System.out.println("Printing doctor Name: " + doctors.get(j).getName() + "\n"+
+                    "Printing doctor specialisation: " + doctors.get(j).getSpecialization() +"\n"+
+                    "Printing doctor Department: " + doctors.get(j).getDept() + "\n"+
+                    "Printing doctor yearsOfExperience: " + doctors.get(j).getYearsOfExperience());
             j++;
         } while (j < doctors.size());
 
 
-        for (Object var : doctors) {
-            System.out.println("Printing using Advanced loop: " + var);
-        }
+        for (Doctor var : doctors) {
+            System.out.println("Printing doctor Info using Advance for loop");
+            System.out.println("Printing doctor Name: " + var.getName() + "\n"+
+                    "Printing doctor specialisation: " + var.getSpecialization() +"\n"+
+                    "Printing doctor Department: " + var.getDept() + "\n"+
+                    "Printing doctor yearsOfExperience: " + var.getYearsOfExperience());
 
+        }
     }
 }

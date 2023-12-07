@@ -25,23 +25,40 @@ public class DemoEmployeeArrayList {
         ArrayList<Employee> employees = obj.createEmployeeList();
 
         for (int i = 0; i < employees.size(); i++) {
-            System.out.println("Printing list data with loop: " + employees.get(i));
+            System.out.println("Printing employee Info using for loop");
+            System.out.println("Printing employee Name: " + employees.get(i).getEmployeeName()+"\n"
+                    + "employeeId: " + employees.get(i).getEmployeeId() +"\n"+
+                    "employeeAge: " + employees.get(i).getEmployeeAge()+"\n"
+                    + "employeeSalary: " + employees.get(i).getEmployeeSalary());
         }
         int k = 0;
         while (k < employees.size()) {
-            System.out.println("Printing list using while loop: " + employees.get(k));
+            System.out.println("Printing employee Info using While loop");
+            System.out.println("Printing employee Name: " + employees.get(k).getEmployeeName()+"\n"
+                    + "employeeId: " + employees.get(k).getEmployeeId() +"\n"+
+                    "employeeAge: " + employees.get(k).getEmployeeAge()+"\n"
+                    + "employeeSalary: " + employees.get(k).getEmployeeSalary());
             k++;
         }
         int j = 0;
         do {
-            System.out.println("Printing list using do-while loop: " + employees.get(j));
+            System.out.println("Printing employee Info using do-While loop");
+            System.out.println("Printing employee Name: " + employees.get(j).getEmployeeName()+"\n"
+                    + "employeeId: " + employees.get(j).getEmployeeId() +"\n"+
+                    "employeeAge: " + employees.get(j).getEmployeeAge()+"\n"
+                    + "employeeSalary: " + employees.get(j).getEmployeeSalary());
             j++;
         } while (j < employees.size());
 
 
-        for (Object var : employees) {
-            System.out.println("Printing using Advanced loop: " + var);
-        }
+        for (Employee var : employees) {
+            System.out.println("Printing employee Info using Advance for loop");
+            System.out.println("Printing employee Name: " + var.getEmployeeName()+"\n"
+                    + "employeeId: " + var.getEmployeeId() +"\n"+
+                    "employeeAge: " + var.getEmployeeAge()+"\n"
+                    + "employeeSalary: " + var.getEmployeeSalary());
 
+        }
     }
 }
+
