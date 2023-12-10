@@ -1,9 +1,6 @@
 package collections.hashset;
-import jdk.internal.org.objectweb.asm.tree.analysis.BasicValue;
 
 import java.util.HashSet;
-import java.util.function.DoubleToIntFunction;
-
 public class AssignmentHashset
 {
     public HashSet<String> createStringHashset(){
