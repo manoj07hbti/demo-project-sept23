@@ -1,4 +1,4 @@
-package collection;
+package collection.arrayList;
 
 import model.Employee;
 
@@ -22,13 +22,14 @@ public class UserEmployeeArrayList {
         System.out.println("Please enter the Salary of the Employee");
         double salary = sc.nextDouble();
 
-        return new Employee(name, id, age, salary);
+        Employee  employee=new Employee(name,id,age,salary);
+        return employee;
     }
 
     public ArrayList<Employee> createEmployeeList() {
-        ArrayList<Employee> employeeArrayList = new ArrayList<>();
+        ArrayList<Employee> EmployeeArrayList = new ArrayList<>();
 
-        return employeeArrayList;
+        return EmployeeArrayList;
     }
 
     public static void main(String[] args) {
@@ -46,10 +47,6 @@ public class UserEmployeeArrayList {
             Scanner sc = new Scanner(System.in);
             String newchoice = sc.next();
             choice = newchoice;
-
-            if (!choice.equals("y")) {
-                break;
-            }
         }
         for (Employee employee : employeeArrayList) {
             System.out.println("Employee Name: " + employee.getEmployeeName() + "\n" +
