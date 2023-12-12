@@ -1,5 +1,7 @@
 package model;
 
+import java.util.Objects;
+
 public class Employee {
     String employeeName;
     int employeeId;
@@ -11,6 +13,19 @@ public class Employee {
         this.employeeId = employeeId;
         this.employeeAge = employeeAge;
         this.employeeSalary = employeeSalary;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Employee employee = (Employee) o;
+        return employeeId == employee.employeeId && employeeAge == employee.employeeAge && Double.compare(employeeSalary, employee.employeeSalary) == 0 && Objects.equals(employeeName, employee.employeeName);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(employeeName, employeeId, employeeAge, employeeSalary);
     }
 
     public String getEmployeeName() {
