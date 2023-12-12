@@ -1,7 +1,6 @@
 package test_27_nov_2023;
 
 public class Array {
-
     public static void main(String[] args) {
         int number[]={7,4,51,45,3,67,89,93,43};
 
@@ -18,7 +17,7 @@ public class Array {
             }
 
         }
-        System.out.println("this number is large number"+largest);
-        System.out.println("this number is small number"+smallest);
+        System.out.println("this number is large number: "+largest);
+        System.out.println("this number is small number: "+smallest);
     }
 }
