@@ -1,10 +1,27 @@
 package model;
 
+import java.util.Objects;
+
 public class Doctor {
 
     String name;
     String workTime;
     int age;
+
+    // we need to override hashcode and equals method to create hashcode based on our logic;
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Doctor doctor = (Doctor) o;
+        return age == doctor.age && Objects.equals(name, doctor.name) && Objects.equals(workTime, doctor.workTime);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, workTime, age);
+    }
 
     // parameterized constructor;
 
@@ -13,8 +30,8 @@ public class Doctor {
         this.workTime = workTime;
         this.age = age;
     }
-    // Getter and setter;
 
+    // Getter and setter;
 
     public String getName() {
         return name;
