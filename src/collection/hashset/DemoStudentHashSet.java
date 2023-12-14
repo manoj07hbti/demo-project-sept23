@@ -3,6 +3,7 @@ package collection.hashset;
 import model.Student;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 public class DemoStudentHashSet {
 
@@ -10,7 +11,7 @@ public class DemoStudentHashSet {
 
         //CollectionName <Datatype> objName = new CollectionName<>();
 
-        HashSet <Student> studentHashSet = new HashSet<>();
+        LinkedHashSet<Student> studentHashSet = new LinkedHashSet<>();
 
         // we need to create Student data by creating student object
         Student student1= new Student("Raj",1,"CS");
