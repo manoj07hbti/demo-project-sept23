@@ -16,6 +16,8 @@ public class AssignmentHashMap
         System.out.println("Energy is at "+physicsBook.get("Energy")+ " Page Number");
         System.out.println("Hysteresis is at "+ physicsBook.get("Hysteresis") +" Page Number");
         System.out.println("Volume is at " +physicsBook.get("Volume") + " Page Number");
+
+        System.out.println("Printing PhysicsBook Map"+physicsBook);
     }
 
     public void createStudentmap()
@@ -31,7 +33,10 @@ public class AssignmentHashMap
         System.out.println("Rohan Belongs to "+studentcityidentification.get("Rohan"));
         System.out.println("Sneha Belongs to "+studentcityidentification.get("Sneha"));
         System.out.println("Deepika Belongs to "+studentcityidentification.get("Deepika"));
+
+        System.out.println("Printing studentcityidentification Map"+studentcityidentification);
     }
+
 
     public void createPricemap(){
         HashMap<String,Double> foodprice=new HashMap<>();
@@ -45,6 +50,7 @@ public class AssignmentHashMap
         System.out.println("lilac hotel serves Caviar at "+foodprice.get("Caviar")+" Rupees");
         System.out.println("lilac hotel serves Bread at "+foodprice.get("Bread")+" Rupees");
 
+        System.out.println("Printing foodprice Map"+foodprice);
     }
     public static void main(String[] args) {
         AssignmentHashMap obj = new AssignmentHashMap();
