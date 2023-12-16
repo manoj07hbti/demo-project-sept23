@@ -1,6 +1,7 @@
 package collection.hashmap;
 
 import java.util.HashMap;
+import java.util.Set;
 
 public class DemoHashMap {
 
@@ -20,6 +21,14 @@ public class DemoHashMap {
         System.out.println("Printing page number for JDK: " +hashMapIndex.get("JDK"));
 
         System.out.println("Printing Map hashMapIndex: "+hashMapIndex);
+        // How to iterate HashMap
+        // we will use keySet()  to get all the key from hashMap as Set
+       Set<String> keys=  hashMapIndex.keySet();
+       for(String var : keys){
+
+           System.out.println("printing map using loop: "+hashMapIndex.get(var));
+       }
+
     }
 
     public void createCourseMap(){
@@ -34,6 +43,12 @@ public class DemoHashMap {
 
         System.out.println(course.get(3));
         System.out.println("Printing Map course: "+course);
+
+       Set<Integer> keys= course.keySet();
+
+       for(Integer var: keys){
+           System.out.println("Printing map using loop : "+course.get(var));
+       }
     }
 
     public static void main(String[] args) {
