@@ -10,6 +10,9 @@ public class Demo_hashSet {
         country.add("India");
         country.add("Austrailia");
         country.add("Russia");
+        country.add("India");
+        country.add("Austrailia");
+        country.add("Russia");
         return country;
     }
     public HashSet<Integer> createinthashset(){
