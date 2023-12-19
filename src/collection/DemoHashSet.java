@@ -5,8 +5,8 @@ import java.util.HashSet;
 public class DemoHashSet {
     public HashSet<String>createStringHashSet(){
         HashSet<String>course=new HashSet<>();
-        course.add("rahul");
-        course.add("nitin");
+        course.add("Rahul");
+        course.add("Nitin");
         course.add("rahul");
         course.add("prakash");
         course.add("neha");
