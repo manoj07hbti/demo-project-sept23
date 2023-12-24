@@ -3,6 +3,7 @@ package collection.hashset;
 import model.Employee;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Scanner;
 
 public class ScannerEmployeeHashset {
@@ -24,7 +25,7 @@ public class ScannerEmployeeHashset {
 
     public static void main(String[] args) {
         ScannerEmployeeHashset obj=new ScannerEmployeeHashset();
-        HashSet<Employee> emp=new HashSet<>();
+        LinkedHashSet<Employee> emp=new LinkedHashSet<>();
 
        String choice="y";
         Scanner scanner=new Scanner(System.in);

@@ -3,12 +3,13 @@ package collection.hashset;
 import model.Doctor;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 public class DemoDoctorHashset {
 
     public HashSet<Doctor> createdoctorset(){
 
-        HashSet<Doctor> set=new HashSet<>();
+        LinkedHashSet<Doctor> set=new LinkedHashSet<>();
 
         Doctor doctor1=new Doctor("Deepak","Ortho","Mbbs");
         System.out.println("printing hashcode: "+doctor1.hashCode());
