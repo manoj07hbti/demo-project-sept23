@@ -53,21 +53,24 @@ public class StudentList {
         for (Student var : students) {
             if (var.getMarks() > max.getMarks()) {
                 max = var;
-                System.out.println("Student with highest marks: " + max.getName() + " Marks: " + max.getMarks());
             }
+
             if (var.getMarks() < min.getMarks()) {
                 min = var;
-                System.out.println("Student with lowest marks: " + min.getName() + " Marks: " + min.getMarks());
             }
         }
+
+        System.out.println("Student with highest marks: " + max.getName() + " Marks: " + max.getMarks());
+        System.out.println("Student with lowest marks: " + min.getName() + " Marks: " + min.getMarks());
+
         // Find out and print all students between roll no 3 to 7.
         System.out.println("Students with roll no between 3 and 7:");
         for (Student var : students) {
             if (var.getRollno() >= 3 && var.getRollno() <= 7) {
                 System.out.println(var.getName() + " Roll No: " + var.getRollno());
             }
-
         }
+
         //Print all students with while loop, do while and advance.
         System.out.println("Printing all students with while loop:");
         int i = 0;
@@ -75,12 +78,10 @@ public class StudentList {
             System.out.println(" Name: " + students.get(i).getName() + " Rollno: " + students.get(i).getRollno() + " Marks: " + students.get(i).getMarks() + " Branch: " + students.get(i).getBranch());
             i++;
         }
-
+        int j=0;
         System.out.println("Printing all students with do-while loop:");
-
-        int j = 0;
         do {
-            System.out.println(" Name: " + students.get(i).getName() + " Rollno: " + students.get(i).getRollno() + " Marks: " + students.get(i).getMarks() + " Branch: " + students.get(i).getBranch());
+            System.out.println(" Name: " + students.get(j).getName() + " Rollno: " + students.get(j).getRollno() + " Marks: " + students.get(j).getMarks() + " Branch: " + students.get(j).getBranch());
             j++;
         } while (j < students.size());
 
