@@ -10,12 +10,12 @@ public class Armstrong {
         while (num != 0) {
             temp = num % 10;
             total = total + temp * temp * temp;
-            num /= 10;
+            num = num / 10;
         }
         if (total == number) {
-            System.out.println("No. is Armstrong");
+            System.out.println(" yes this is  Armstrong ");
         } else {
-            System.out.println("No. is not Armstrong");
+            System.out.println("No this is not Armstrong");
         }
     }
 }

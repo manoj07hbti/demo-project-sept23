@@ -8,6 +8,9 @@ public class Student {
     String district="Faridabad";
     int rollno= 12;
 
+    public Student() {
+    }
+
     public static void main(String[] args) {
 
         Student obj= new Student();
