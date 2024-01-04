@@ -1,37 +1,47 @@
 package model;
 
 public class Student {
-    String Name;
-    int rollNO;
-    String Section;
-
-    public Student(String name, int rollNO, String section) {
-        Name = name;
-        this.rollNO = rollNO;
-        Section = section;
+    public Student(String name, int rollNumber, int marks, String section) {
+        this.name = name;
+        this.rollNumber = rollNumber;
+        this.marks = marks;
+        this.section = section;
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        Name = name;
+        this.name = name;
     }
 
-    public int getRollNO() {
-        return rollNO;
+    public int getRollNumber() {
+        return rollNumber;
     }
 
-    public void setRollNO(int rollNO) {
-        this.rollNO = rollNO;
+    public void setRollNumber(int rollNumber) {
+        this.rollNumber = rollNumber;
+    }
+
+    public int getMarks() {
+        return marks;
+    }
+
+    public void setMarks(int marks) {
+        this.marks = marks;
     }
 
     public String getSection() {
-        return Section;
+        return section;
     }
 
     public void setSection(String section) {
-        Section = section;
+        this.section = section;
     }
+
+    String name;
+    int rollNumber;
+    int marks;
+    String section;
 }
