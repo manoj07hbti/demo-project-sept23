@@ -1,4 +1,3 @@
-/*
 package oops.abstraction;
 
 public class ChildImpl implements DemoInterface{
@@ -17,4 +16,3 @@ public class ChildImpl implements DemoInterface{
 
     }
 }
-*/

@@ -1,4 +1,3 @@
-/*
 package oops.abstraction;
 
 public class AbstractChild extends DemoAbstract {
@@ -13,4 +12,3 @@ public class AbstractChild extends DemoAbstract {
 
     }
 }
-*/
