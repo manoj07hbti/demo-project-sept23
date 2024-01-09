@@ -1,4 +1,4 @@
-package oops.inheritance.abstraction;
+package oops.abstraction;
 
 public interface DemoInterface {
     // we do not need any abstract keyword to represent abstract method , 100 % abstraction

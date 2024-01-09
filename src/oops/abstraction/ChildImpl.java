@@ -1,4 +1,5 @@
-package oops.inheritance.abstraction;
+/*
+package oops.abstraction;
 
 public class ChildImpl implements DemoInterface{
     @Override
@@ -16,3 +17,4 @@ public class ChildImpl implements DemoInterface{
 
     }
 }
+*/
