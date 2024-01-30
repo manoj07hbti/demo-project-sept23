@@ -41,10 +41,6 @@ public class EmployeeHashMap {
         // Add the HashSet to the HashMap with the company name as the key
         employeeMap.put(companyName, employees);
     }
-    public static void displayEmployeesBySalary(HashMap<String, Employee> employeeMap) {
-        HashMap<Double, StringBuilder> salaryEmployeesMap = new HashMap<>();
-    }
-
     public static void main(String[] args) {
         HashMap<String, HashSet<Employee>> employeeMap = new HashMap<>();
 
@@ -58,7 +54,7 @@ public class EmployeeHashMap {
         for (String companyName : employeeMap.keySet()) {
             HashSet<Employee> list = employeeMap.get(companyName);
             for (Employee employee : list) {
-                if (employee.getCity().equals("Delhi") || employee.getCity().equals("Pune") || employee.getCity().equals("Agra")) {
+                if (employee.getCity().equals("Delhi")) {
                     System.out.println("companyName: " + companyName);
                     System.out.println("Employee details: ");
                     System.out.println("Printing name: " + employee.getName()
@@ -67,6 +63,61 @@ public class EmployeeHashMap {
                             + "Department: " + employee.getDepartment());
                     System.out.println();
                 }
+            }
+            for (Employee employee : list) {
+                if (employee.getCity().equals("Pune")) {
+                    System.out.println("companyName: " + companyName);
+                    System.out.println("Employee details: ");
+                    System.out.println("Printing name: " + employee.getName()
+                            + "Salary: " + employee.getSalary()
+                            + "City: " + employee.getCity()
+                            + "Department: " + employee.getDepartment());
+                    System.out.println();
+                }
+            }
+            for (Employee employee : list) {
+                if (employee.getCity().equals("Agra")) {
+                    System.out.println("companyName: " + companyName);
+                    System.out.println("Employee details: ");
+                    System.out.println("Printing name: " + employee.getName()
+                            + "Salary: " + employee.getSalary()
+                            + "City: " + employee.getCity()
+                            + "Department: " + employee.getDepartment());
+                    System.out.println();
+                }
+            }
+        }
+        // Create a HashMap to store employees with the same salary
+        HashMap<Double, HashSet<String>> salaryMap = new HashMap<>();
+
+
+        for (String companyName : employeeMap.keySet()) {
+            HashSet<Employee> list = employeeMap.get(companyName);
+            for (Employee employee : list) {
+                double salary = employee.getSalary();
+                String employeeDetails = employee.getName() + " " + salary + " " + companyName;
+
+                // Check if salary already exists in salaryMap
+                if (salaryMap.containsKey(salary)) {
+                    salaryMap.get(salary).add(employeeDetails);
+                } else {
+                    HashSet<String> employeesWithSameSalary = new HashSet<>();
+                    employeesWithSameSalary.add(employeeDetails);
+                    salaryMap.put(salary, employeesWithSameSalary);
+                }
+            }
+        }
+
+        // Display employees with the same salary
+        for (double salary : salaryMap.keySet()) {
+            HashSet<String> employeesWithSameSalary = salaryMap.get(salary);
+
+            if (employeesWithSameSalary.size() > 1) {
+                System.out.println("Same Salary: " + salary);
+                for (String employeeDetails : employeesWithSameSalary) {
+                    System.out.println(employeeDetails);
+                }
+                System.out.println();
             }
         }
     }
