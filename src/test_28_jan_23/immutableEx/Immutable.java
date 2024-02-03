@@ -15,4 +15,5 @@ public final class Immutable {
         Immutable obj=new Immutable();
         System.out.println(obj.getName("Ram"));
     }
+
 }
